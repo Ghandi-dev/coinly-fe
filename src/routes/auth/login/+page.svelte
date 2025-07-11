@@ -5,7 +5,7 @@
 	import InputPassword from '$lib/components/input/InputPassword.svelte';
 	import PlayfulBackground from '$lib/components/PlayfulBackground.svelte';
 	let loginData = $state({
-		email: 'asdkasdk',
+		email: '',
 		password: ''
 	});
 	const handleLogin = () => {

@@ -3,12 +3,11 @@
 
 	interface Props {
 		value: string;
-		className?: string;
 		placeholder?: string;
 		label?: string;
 	}
 
-	let { value = $bindable(), className = '', placeholder = 'Type here', label }: Props = $props();
+	let { value = $bindable(), placeholder = 'Type here', label }: Props = $props();
 	let visible = $state(false);
 </script>
 
