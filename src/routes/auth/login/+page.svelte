@@ -15,7 +15,7 @@
 </script>
 
 <PlayfulBackground />
-<h1>Belajar Svelte Kit</h1>
+<img src="/coinly-logo.png" alt="logo" class="w-32 mx-auto mb-4" />
 <h1>{loginData.email}</h1>
 <Card className="w-full md:w-96">
 	<form action="" onsubmit={handleLogin}>
@@ -27,6 +27,6 @@
 			bind:value={loginData.email}
 		/>
 		<InputPassword bind:value={loginData.password} label="Password" placeholder={''} />
-		<Button type="primary" isSubmit className="w-full">Login</Button>
+		<Button type="primary" isSubmit className="w-full mt-4">Login</Button>
 	</form>
 </Card>
